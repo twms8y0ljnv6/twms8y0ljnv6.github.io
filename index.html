@@ -1,0 +1,1565 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>白桃少女_青春影像品牌 - 记录真实成长的少女视频社区</title>
+<meta name="description" content="白桃少女是专注于青春成长影像的官方品牌官网，汇聚原创短片、创作者故事与少女日常记录，为企业与创作者搭建值得信赖的高品质内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ff9fb2'/%3E%3Cstop offset='1' stop-color='%23ffd3a5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='32' cy='32' r='30' fill='url(%23g)'/%3E%3Cpath d='M32 18c6 0 11 5 11 11s-5 11-11 11-11-5-11-11 5-11 11-11z' fill='%23fff' opacity='.85'/%3E%3Cpath d='M32 20l3 7 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z' fill='%23ff6f91'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --peach:#ff7d95;
+    --peach-deep:#e85d7e;
+    --peach-soft:#ffe6ec;
+    --apricot:#ffc9a8;
+    --cream:#fff8f5;
+    --ink:#2f2a33;
+    --ink-soft:#6a616e;
+    --line:#f2dde3;
+    --violet:#8f7bd8;
+    --mint:#7fd6c2;
+    --gold:#f4b95c;
+    --shadow:0 12px 30px -12px rgba(232,93,126,.28);
+    --radius:18px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+    background:var(--cream);
+    color:var(--ink);
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none}
+  img{display:block;max-width:100%}
+  ul{list-style:none}
+  button{font-family:inherit;cursor:pointer;border:none;background:none}
+  .pt-wrap{width:min(1180px,92%);margin:0 auto}
+  .pt-anchor{scroll-margin-top:132px}
+  .pt-eyebrow{
+    display:inline-block;font-size:13px;letter-spacing:.16em;
+    color:var(--peach-deep);font-weight:700;
+    background:var(--peach-soft);padding:4px 14px;border-radius:999px;
+  }
+  .pt-section{padding:82px 0}
+  .pt-section-head{max-width:760px;margin-bottom:38px}
+  .pt-section-head h2{
+    font-size:clamp(24px,3.4vw,34px);line-height:1.35;margin:14px 0 12px;
+    letter-spacing:.01em;
+  }
+  .pt-section-head p{color:var(--ink-soft);font-size:15.5px}
+  .pt-btn{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:12px 26px;border-radius:999px;font-size:15px;font-weight:600;
+    transition:.25s;border:1px solid transparent;
+  }
+  .pt-btn-primary{background:var(--peach);color:#fff;box-shadow:var(--shadow)}
+  .pt-btn-primary:hover{background:var(--peach-deep);transform:translateY(-2px)}
+  .pt-btn-ghost{border-color:var(--peach);color:var(--peach-deep);background:#fff}
+  .pt-btn-ghost:hover{background:var(--peach-soft)}
+
+  /* ============ 公告条 ============ */
+  .pt-topbar{
+    position:sticky;top:0;z-index:60;
+    background:linear-gradient(90deg,#ffd9e2 0%,#ffe9d4 45%,#e6d9ff 100%);
+    border-bottom:1px solid var(--line);
+    font-size:13.5px;color:#7a4b5a;
+  }
+  .pt-topbar-inner{
+    display:flex;align-items:center;gap:14px;
+    padding:9px 0;overflow:hidden;
+  }
+  .pt-topbar-badge{
+    flex-shrink:0;background:var(--peach-deep);color:#fff;
+    font-size:12px;font-weight:700;padding:2px 10px;border-radius:999px;
+    letter-spacing:.05em;
+  }
+  .pt-topbar-marquee{flex:1;overflow:hidden;white-space:nowrap}
+  .pt-topbar-marquee span{
+    display:inline-block;padding-left:100%;
+    animation:ptScroll 34s linear infinite;
+  }
+  .pt-topbar-marquee span b{color:var(--peach-deep);font-weight:700}
+  .pt-topbar-marquee span i{font-style:normal;margin:0 16px;color:#c39fb0}
+  @keyframes ptScroll{0%{transform:translateX(0)}100%{transform:translateX(-100%)}}
+  .pt-topbar-close{
+    flex-shrink:0;font-size:16px;color:#b38a9a;line-height:1;padding:0 4px;
+  }
+  .pt-topbar-close:hover{color:var(--peach-deep)}
+
+  /* ============ 页头 ============ */
+  .pt-header{
+    position:sticky;top:37px;z-index:55;
+    background:rgba(255,248,245,.92);
+    backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--line);
+  }
+  .pt-header-inner{
+    display:flex;align-items:center;gap:26px;padding:14px 0;
+  }
+  .pt-logo{display:flex;align-items:center;gap:12px;flex-shrink:0}
+  .pt-logo-mark{
+    width:44px;height:44px;border-radius:14px;flex-shrink:0;
+    background:linear-gradient(135deg,var(--peach) 0%,var(--apricot) 100%);
+    display:grid;place-items:center;color:#fff;font-weight:800;font-size:19px;
+    box-shadow:0 6px 16px -6px rgba(232,93,126,.6);
+  }
+  .pt-logo-text b{display:block;font-size:17.5px;letter-spacing:.02em;line-height:1.2}
+  .pt-logo-text small{display:block;font-size:11px;color:var(--ink-soft);letter-spacing:.22em}
+  .pt-nav{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+  .pt-nav a{
+    padding:8px 14px;border-radius:10px;font-size:14.5px;color:#4a414f;
+    transition:.2s;font-weight:500;white-space:nowrap;
+  }
+  .pt-nav a:hover{background:var(--peach-soft);color:var(--peach-deep)}
+  .pt-search{
+    display:flex;align-items:center;gap:8px;flex-shrink:0;
+    background:#fff;border:1px solid var(--line);border-radius:999px;
+    padding:7px 8px 7px 16px;min-width:200px;transition:.25s;
+  }
+  .pt-search:focus-within{border-color:var(--peach);box-shadow:0 0 0 4px rgba(255,125,149,.13)}
+  .pt-search input{border:none;outline:none;width:100%;font-size:14px;background:transparent;color:var(--ink)}
+  .pt-search button{
+    width:32px;height:32px;border-radius:50%;background:var(--peach);color:#fff;
+    display:grid;place-items:center;flex-shrink:0;font-size:14px;
+  }
+  .pt-search button:hover{background:var(--peach-deep)}
+  .pt-search-feedback{
+    font-size:12.5px;color:var(--peach-deep);margin-top:6px;
+    min-height:18px;display:none;
+  }
+  .pt-burger{
+    display:none;width:42px;height:42px;border-radius:12px;
+    background:var(--peach-soft);color:var(--peach-deep);
+    font-size:20px;place-items:center;margin-left:auto;flex-shrink:0;
+  }
+  .pt-mobile-nav{display:none;border-top:1px solid var(--line);padding:8px 0 16px}
+  .pt-mobile-nav a{
+    display:block;padding:11px 6px;border-bottom:1px dashed var(--line);
+    font-size:15px;color:#4a414f;
+  }
+  .pt-mobile-nav.open{display:block}
+
+  /* ============ 首屏 ============ */
+  .pt-hero{
+    padding:64px 0 70px;position:relative;overflow:hidden;
+    background:
+      radial-gradient(circle at 88% 12%,rgba(255,201,168,.5),transparent 46%),
+      radial-gradient(circle at 6% 82%,rgba(143,123,216,.18),transparent 50%),
+      linear-gradient(180deg,#fff8f5 0%,#ffeef1 100%);
+  }
+  .pt-hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+  .pt-hero h1{
+    font-size:clamp(38px,6vw,68px);line-height:1.1;letter-spacing:.02em;
+    margin:18px 0 8px;font-weight:800;
+    background:linear-gradient(120deg,var(--peach-deep),var(--violet) 90%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .pt-hero-tag{
+    display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;
+    color:var(--peach-deep);background:#fff;border:1px solid var(--line);
+    padding:6px 16px;border-radius:999px;box-shadow:0 6px 18px -12px rgba(232,93,126,.5);
+  }
+  .pt-hero-slogan{font-size:clamp(18px,2.2vw,22px);font-weight:600;margin:14px 0 20px;color:#4a414f}
+  .pt-hero-intro{color:var(--ink-soft);font-size:15px;margin-bottom:26px;max-width:560px}
+  .pt-hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:34px}
+  .pt-hero-stats{display:flex;gap:16px;flex-wrap:wrap}
+  .pt-stat{
+    background:#fff;border:1px solid var(--line);border-radius:16px;
+    padding:14px 20px;min-width:128px;box-shadow:0 8px 22px -18px rgba(232,93,126,.6);
+  }
+  .pt-stat b{display:block;font-size:25px;color:var(--peach-deep);line-height:1.2;letter-spacing:.01em}
+  .pt-stat span{font-size:12.5px;color:var(--ink-soft);letter-spacing:.04em}
+  .pt-hero-visual{position:relative}
+  .pt-hero-cover{
+    border-radius:26px;overflow:hidden;border:6px solid #fff;
+    box-shadow:0 28px 60px -30px rgba(232,93,126,.6);
+    background:#fff;
+  }
+  .pt-hero-cover img{width:100%;aspect-ratio:16/11;object-fit:cover}
+  .pt-hero-float{
+    position:absolute;background:#fff;border-radius:16px;padding:12px 16px;
+    box-shadow:0 16px 36px -18px rgba(143,123,216,.5);font-size:13px;
+  }
+  .pt-hero-float.f1{left:-14px;bottom:54px;display:flex;align-items:center;gap:10px}
+  .pt-hero-float.f1 .dot{width:9px;height:9px;border-radius:50%;background:var(--mint);box-shadow:0 0 0 4px rgba(127,214,194,.25)}
+  .pt-hero-float.f2{right:-10px;top:34px;display:flex;align-items:center;gap:9px}
+  .pt-hero-float.f2 b{color:var(--peach-deep);font-size:16px}
+  .pt-hero-avatar-stack{display:flex}
+  .pt-hero-avatar-stack span{
+    width:26px;height:26px;border-radius:50%;border:2px solid #fff;margin-left:-8px;
+    display:grid;place-items:center;font-size:11px;color:#fff;font-weight:700;
+  }
+  .pt-hero-avatar-stack span:first-child{margin-left:0}
+
+  /* ============ 关键词解析 ============ */
+  .pt-about{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .pt-about-grid{display:grid;grid-template-columns:0.85fr 1.15fr;gap:52px;align-items:start}
+  .pt-about-side{position:sticky;top:150px}
+  .pt-about-side h2{font-size:clamp(24px,3.2vw,32px);margin:14px 0 16px;line-height:1.35}
+  .pt-about-side .quote{
+    border-left:3px solid var(--peach);padding:4px 0 4px 16px;
+    color:var(--ink-soft);font-size:14.5px;font-style:normal;
+  }
+  .pt-about-side .badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+  .pt-about-side .badges span{
+    font-size:12.5px;background:var(--peach-soft);color:var(--peach-deep);
+    padding:5px 12px;border-radius:999px;font-weight:600;
+  }
+  .pt-about-text p{color:#4d4552;font-size:15px;margin-bottom:16px;text-align:justify}
+  .pt-about-text p strong{color:var(--peach-deep);font-weight:700}
+  .pt-about-text h3{font-size:18px;margin:26px 0 10px;color:var(--ink)}
+  .pt-about-text h3::before{content:"";display:inline-block;width:6px;height:16px;background:var(--peach);border-radius:3px;margin-right:9px;vertical-align:-2px}
+
+  /* ============ 焦点视频 ============ */
+  .pt-focus-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:24px}
+  .pt-focus-main{
+    position:relative;border-radius:var(--radius);overflow:hidden;
+    box-shadow:0 24px 50px -28px rgba(232,93,126,.65);
+  }
+  .pt-focus-main img{width:100%;height:100%;aspect-ratio:16/10;object-fit:cover;transition:.5s}
+  .pt-focus-main:hover img{transform:scale(1.04)}
+  .pt-focus-main .mask{
+    position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;
+    padding:26px;color:#fff;
+    background:linear-gradient(180deg,rgba(47,42,51,0) 28%,rgba(47,42,51,.82) 100%);
+  }
+  .pt-focus-main .mask .tag{
+    align-self:flex-start;background:var(--peach);font-size:12px;font-weight:700;
+    padding:3px 11px;border-radius:999px;margin-bottom:12px;letter-spacing:.05em;
+  }
+  .pt-focus-main .mask h3{font-size:clamp(19px,2.3vw,24px);margin-bottom:8px;line-height:1.35}
+  .pt-focus-main .mask p{font-size:13.5px;opacity:.88;margin-bottom:12px}
+  .pt-focus-main .mask .meta{font-size:12.5px;opacity:.8;display:flex;gap:16px;flex-wrap:wrap}
+  .pt-focus-side{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .pt-mini{
+    background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;
+    transition:.28s;
+  }
+  .pt-mini:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+  .pt-mini .thumb{position:relative;overflow:hidden}
+  .pt-mini .thumb img{width:100%;aspect-ratio:16/10;object-fit:cover}
+  .pt-mini .thumb .play{
+    position:absolute;right:8px;bottom:8px;width:26px;height:26px;border-radius:50%;
+    background:rgba(255,255,255,.92);display:grid;place-items:center;
+    font-size:10px;color:var(--peach-deep);
+  }
+  .pt-mini .info{padding:11px 13px 14px}
+  .pt-mini .info h4{font-size:14px;line-height:1.45;margin-bottom:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .pt-mini .info .by{font-size:12px;color:var(--ink-soft);display:flex;justify-content:space-between;gap:6px}
+
+  /* ============ 视频流 ============ */
+  .pt-stream-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .pt-card{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    overflow:hidden;transition:.3s;display:flex;flex-direction:column;
+  }
+  .pt-card:hover{transform:translateY(-6px);box-shadow:0 22px 46px -26px rgba(232,93,126,.55)}
+  .pt-card .cover{position:relative;overflow:hidden}
+  .pt-card .cover img{width:100%;aspect-ratio:16/9;object-fit:cover;transition:.45s}
+  .pt-card:hover .cover img{transform:scale(1.05)}
+  .pt-card .cover .pill{
+    position:absolute;left:10px;top:10px;background:rgba(47,42,51,.72);color:#fff;
+    font-size:11.5px;padding:3px 10px;border-radius:999px;backdrop-filter:blur(4px);
+  }
+  .pt-card .cover .dur{
+    position:absolute;right:10px;bottom:10px;background:rgba(47,42,51,.75);color:#fff;
+    font-size:11.5px;padding:2px 8px;border-radius:6px;
+  }
+  .pt-card .body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:10px;flex:1}
+  .pt-card .body h3{font-size:16px;line-height:1.45}
+  .pt-card .body .desc{
+    font-size:13.5px;color:var(--ink-soft);line-height:1.65;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  }
+  .pt-card .tags{display:flex;flex-wrap:wrap;gap:6px}
+  .pt-card .tags span{font-size:11.5px;color:var(--peach-deep);background:var(--peach-soft);padding:2px 9px;border-radius:999px}
+  .pt-card .foot{
+    display:flex;align-items:center;justify-content:space-between;gap:8px;
+    padding-top:12px;border-top:1px dashed var(--line);margin-top:auto;
+  }
+  .pt-card .author{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--ink-soft)}
+  .pt-card .author .av{
+    width:26px;height:26px;border-radius:50%;display:grid;place-items:center;
+    color:#fff;font-size:11px;font-weight:700;flex-shrink:0;
+  }
+  .pt-card .ops{display:flex;gap:6px}
+  .pt-op{
+    display:inline-flex;align-items:center;gap:4px;font-size:12.5px;
+    color:var(--ink-soft);padding:4px 8px;border-radius:8px;transition:.2s;
+  }
+  .pt-op:hover{background:var(--peach-soft);color:var(--peach-deep)}
+  .pt-op.active{color:var(--peach-deep);font-weight:700}
+
+  /* ============ 专题 ============ */
+  .pt-special-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .pt-special{
+    border-radius:var(--radius);overflow:hidden;position:relative;color:#fff;min-height:250px;
+    display:flex;flex-direction:column;justify-content:flex-end;padding:22px;
+    box-shadow:0 18px 40px -26px rgba(47,42,51,.7);
+  }
+  .pt-special img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;transition:.5s}
+  .pt-special:hover img{transform:scale(1.06)}
+  .pt-special::after{
+    content:"";position:absolute;inset:0;z-index:1;
+    background:linear-gradient(180deg,rgba(47,42,51,.15) 20%,rgba(47,42,51,.85) 100%);
+  }
+  .pt-special > *{position:relative;z-index:2}
+  .pt-special .st{font-size:11.5px;background:rgba(255,255,255,.22);border-radius:999px;padding:3px 11px;align-self:flex-start;margin-bottom:10px;backdrop-filter:blur(4px)}
+  .pt-special h3{font-size:18px;line-height:1.4;margin-bottom:8px}
+  .pt-special p{font-size:13px;opacity:.88;line-height:1.6;margin-bottom:10px}
+  .pt-special .upd{font-size:11.5px;opacity:.8;letter-spacing:.02em}
+
+  /* ============ 创作者 ============ */
+  .pt-creator-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .pt-creator{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    padding:22px;transition:.3s;display:flex;flex-direction:column;gap:12px;
+  }
+  .pt-creator:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:#ffd3dd}
+  .pt-creator-top{display:flex;align-items:center;gap:13px}
+  .pt-creator .avatar{
+    width:54px;height:54px;border-radius:50%;display:grid;place-items:center;
+    color:#fff;font-weight:800;font-size:19px;flex-shrink:0;letter-spacing:.02em;
+  }
+  .pt-creator .who b{display:block;font-size:15.5px}
+  .pt-creator .who span{font-size:12.5px;color:var(--peach-deep)}
+  .pt-creator p{font-size:13.5px;color:var(--ink-soft);line-height:1.65}
+  .pt-creator .stats{
+    display:flex;gap:18px;font-size:12.5px;color:var(--ink-soft);
+    padding-top:12px;border-top:1px dashed var(--line);
+  }
+  .pt-creator .stats b{color:var(--ink);font-weight:700}
+  .pt-creator .more{
+    align-self:flex-start;font-size:13px;color:var(--peach-deep);font-weight:600;
+  }
+  .pt-creator .more:hover{text-decoration:underline}
+
+  /* ============ 影像墙 ============ */
+  .pt-wall{background:linear-gradient(180deg,#fff 0%,#fff5f2 100%);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .pt-wall-grid{
+    display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:132px;gap:16px;
+  }
+  .pt-wall-item{
+    border-radius:14px;overflow:hidden;position:relative;background:#fff;
+    box-shadow:0 10px 24px -20px rgba(232,93,126,.7);
+  }
+  .pt-wall-item img{width:100%;height:100%;object-fit:cover;transition:.45s}
+  .pt-wall-item:hover img{transform:scale(1.07)}
+  .pt-wall-item .cap{
+    position:absolute;inset:auto 0 0 0;padding:18px 12px 10px;color:#fff;font-size:12.5px;
+    background:linear-gradient(180deg,rgba(47,42,51,0) 0%,rgba(47,42,51,.78) 100%);
+    opacity:0;transform:translateY(8px);transition:.3s;
+  }
+  .pt-wall-item:hover .cap{opacity:1;transform:translateY(0)}
+  .pt-w-big{grid-column:span 2;grid-row:span 2}
+  .pt-w-tall{grid-row:span 2}
+  .pt-w-wide{grid-column:span 2}
+
+  /* ============ 口碑 ============ */
+  .pt-review-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+  .pt-review{
+    background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 22px;
+    position:relative;transition:.28s;
+  }
+  .pt-review:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+  .pt-review .top{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+  .pt-review .avatar{
+    width:40px;height:40px;border-radius:50%;display:grid;place-items:center;
+    color:#fff;font-size:14px;font-weight:700;flex-shrink:0;
+  }
+  .pt-review .top b{font-size:14px;display:block}
+  .pt-review .top small{font-size:11.5px;color:var(--ink-soft)}
+  .pt-review .stars{color:var(--gold);font-size:12.5px;letter-spacing:2px;margin-left:auto}
+  .pt-review p{font-size:13.8px;color:#4d4552;line-height:1.75}
+
+  /* ============ 动态 + 榜单 ============ */
+  .pt-two-col{display:grid;grid-template-columns:1.1fr .9fr;gap:30px}
+  .pt-news{display:flex;flex-direction:column;gap:0}
+  .pt-news-item{
+    display:flex;gap:16px;padding:18px 0;border-bottom:1px dashed var(--line);
+    align-items:flex-start;transition:.2s;
+  }
+  .pt-news-item:hover{padding-left:6px}
+  .pt-news-item .date{
+    flex-shrink:0;width:62px;text-align:center;background:var(--peach-soft);border-radius:10px;
+    padding:6px 0;color:var(--peach-deep);font-weight:700;font-size:14px;line-height:1.25;
+  }
+  .pt-news-item .date small{display:block;font-size:10.5px;font-weight:600;opacity:.75;letter-spacing:.05em}
+  .pt-news-item h4{font-size:15px;margin-bottom:5px}
+  .pt-news-item p{font-size:13px;color:var(--ink-soft);line-height:1.6}
+  .pt-rank{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;
+  }
+  .pt-rank h3{font-size:16px;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+  .pt-rank ol{counter-reset:rk;display:flex;flex-direction:column;gap:2px}
+  .pt-rank li{
+    counter-increment:rk;display:flex;align-items:center;gap:12px;
+    padding:11px 4px;border-bottom:1px dashed var(--line);font-size:14px;
+  }
+  .pt-rank li:last-child{border-bottom:none}
+  .pt-rank li::before{
+    content:counter(rk);flex-shrink:0;width:22px;height:22px;border-radius:7px;
+    background:var(--peach-soft);color:var(--peach-deep);font-size:12px;font-weight:700;
+    display:grid;place-items:center;
+  }
+  .pt-rank li:nth-child(1)::before{background:var(--peach);color:#fff}
+  .pt-rank li:nth-child(2)::before{background:#ffb0c1;color:#fff}
+  .pt-rank li:nth-child(3)::before{background:#ffd0a8;color:#fff}
+  .pt-rank li .t{flex:1;line-height:1.4}
+  .pt-rank li .n{font-size:12px;color:var(--ink-soft);flex-shrink:0}
+
+  /* ============ FAQ ============ */
+  .pt-faq{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+  .pt-faq details{
+    background:#fff;border:1px solid var(--line);border-radius:14px;
+    padding:0 20px;transition:.25s;overflow:hidden;
+  }
+  .pt-faq details[open]{border-color:#ffd3dd;box-shadow:0 12px 30px -22px rgba(232,93,126,.7)}
+  .pt-faq summary{
+    list-style:none;cursor:pointer;padding:17px 0;font-size:15px;font-weight:600;
+    display:flex;align-items:center;justify-content:space-between;gap:12px;
+  }
+  .pt-faq summary::-webkit-details-marker{display:none}
+  .pt-faq summary::after{
+    content:"+";font-size:19px;color:var(--peach-deep);font-weight:400;
+    transition:.25s;flex-shrink:0;
+  }
+  .pt-faq details[open] summary::after{transform:rotate(45deg)}
+  .pt-faq .ans{padding:0 0 18px;font-size:14px;color:var(--ink-soft);line-height:1.78}
+
+  /* ============ 联系 ============ */
+  .pt-contact{
+    background:linear-gradient(135deg,#ffeef1 0%,#f4ecff 50%,#fff2e3 100%);
+    border-top:1px solid var(--line);
+  }
+  .pt-contact-box{
+    background:#fff;border:1px solid var(--line);border-radius:26px;
+    padding:clamp(26px,4vw,46px);display:grid;grid-template-columns:1.15fr .85fr;gap:36px;
+    box-shadow:0 24px 60px -40px rgba(232,93,126,.8);
+  }
+  .pt-contact-box h2{font-size:clamp(22px,3vw,30px);margin:12px 0 14px;line-height:1.35}
+  .pt-contact-box p{font-size:14.5px;color:var(--ink-soft);margin-bottom:20px}
+  .pt-contact-actions{display:flex;gap:12px;flex-wrap:wrap}
+  .pt-contact-list{display:flex;flex-direction:column;gap:14px}
+  .pt-contact-list div{
+    display:flex;gap:12px;align-items:flex-start;font-size:14px;color:#4d4552;
+  }
+  .pt-contact-list .ic{
+    width:34px;height:34px;border-radius:10px;background:var(--peach-soft);color:var(--peach-deep);
+    display:grid;place-items:center;flex-shrink:0;font-size:15px;
+  }
+  .pt-contact-list b{display:block;font-size:13px;color:var(--ink-soft);font-weight:600}
+  .pt-contact-list span{font-size:14px}
+
+  /* ============ 页脚 ============ */
+  .pt-footer{background:#2f2a33;color:#cfc6d3;padding:56px 0 26px;font-size:13.5px}
+  .pt-footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;margin-bottom:36px}
+  .pt-footer h4{color:#fff;font-size:14.5px;margin-bottom:14px;letter-spacing:.04em}
+  .pt-footer p{line-height:1.85;color:#a99fb0}
+  .pt-footer ul{display:flex;flex-direction:column;gap:9px}
+  .pt-footer ul a{color:#a99fb0;transition:.2s}
+  .pt-footer ul a:hover{color:var(--apricot)}
+  .pt-footer-brand{display:flex;align-items:center;gap:11px;margin-bottom:14px}
+  .pt-footer-brand .pt-logo-mark{width:38px;height:38px;border-radius:11px;font-size:16px}
+  .pt-footer-brand b{color:#fff;font-size:16px}
+  .pt-footer-bottom{
+    border-top:1px solid rgba(255,255,255,.12);padding-top:20px;
+    display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+    color:#8f8699;font-size:12.5px;
+  }
+
+  /* ============ 通用组件 ============ */
+  .pt-toast{
+    position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);
+    background:rgba(47,42,51,.94);color:#fff;padding:11px 24px;border-radius:999px;
+    font-size:13.5px;opacity:0;pointer-events:none;transition:.3s;z-index:200;
+    box-shadow:0 14px 34px -14px rgba(0,0,0,.5);white-space:nowrap;
+  }
+  .pt-toast.show{opacity:1;transform:translate(-50%,0)}
+  .pt-backtop{
+    position:fixed;right:22px;bottom:26px;width:46px;height:46px;border-radius:50%;
+    background:var(--peach);color:#fff;display:grid;place-items:center;
+    box-shadow:0 14px 30px -12px rgba(232,93,126,.9);z-index:120;
+    opacity:0;pointer-events:none;transform:translateY(12px);transition:.3s;font-size:18px;
+  }
+  .pt-backtop.show{opacity:1;pointer-events:auto;transform:translateY(0)}
+  .pt-backtop:hover{background:var(--peach-deep)}
+
+  .pt-modal-mask{
+    position:fixed;inset:0;background:rgba(47,42,51,.55);z-index:150;
+    display:none;align-items:center;justify-content:center;padding:20px;
+    backdrop-filter:blur(3px);
+  }
+  .pt-modal-mask.open{display:flex}
+  .pt-modal{
+    background:#fff;border-radius:20px;padding:28px;max-width:460px;width:100%;
+    box-shadow:0 30px 80px -30px rgba(0,0,0,.6);animation:ptPop .28s ease;
+  }
+  @keyframes ptPop{from{transform:translateY(16px) scale(.97);opacity:0}to{transform:none;opacity:1}}
+  .pt-modal h3{font-size:18px;margin-bottom:12px}
+  .pt-modal p{font-size:14px;color:var(--ink-soft);line-height:1.75;margin-bottom:18px}
+  .pt-modal .close{float:right;font-size:20px;color:#b3a8b6;line-height:1}
+  .pt-modal-actions{display:flex;gap:10px;flex-wrap:wrap}
+
+  @media (max-width:1024px){
+    .pt-hero-grid{grid-template-columns:1fr;gap:36px}
+    .pt-about-grid{grid-template-columns:1fr;gap:28px}
+    .pt-about-side{position:static}
+    .pt-focus-grid{grid-template-columns:1fr}
+    .pt-stream-grid{grid-template-columns:repeat(2,1fr)}
+    .pt-special-grid{grid-template-columns:repeat(2,1fr)}
+    .pt-creator-grid{grid-template-columns:repeat(2,1fr)}
+    .pt-two-col{grid-template-columns:1fr}
+    .pt-contact-box{grid-template-columns:1fr}
+    .pt-footer-grid{grid-template-columns:1fr 1fr}
+    .pt-nav{display:none}
+    .pt-search{min-width:170px}
+    .pt-burger{display:grid}
+    .pt-header-inner{flex-wrap:wrap;gap:12px}
+  }
+  @media (max-width:720px){
+    .pt-header{top:37px}
+    .pt-header-inner{gap:10px}
+    .pt-search{order:5;width:100%;min-width:0}
+    .pt-hero{padding:40px 0 50px}
+    .pt-section{padding:56px 0}
+    .pt-stream-grid{grid-template-columns:1fr}
+    .pt-special-grid{grid-template-columns:1fr}
+    .pt-creator-grid{grid-template-columns:1fr}
+    .pt-review-grid{grid-template-columns:1fr}
+    .pt-focus-side{grid-template-columns:1fr 1fr}
+    .pt-wall-grid{grid-template-columns:repeat(2,1fr);grid-auto-rows:124px}
+    .pt-w-big{grid-column:span 2;grid-row:span 2}
+    .pt-w-tall{grid-row:span 1}
+    .pt-w-wide{grid-column:span 2}
+    .pt-footer-grid{grid-template-columns:1fr}
+    .pt-hero-float.f1{left:0}
+    .pt-hero-float.f2{right:0}
+    .pt-topbar-inner{gap:8px}
+    .pt-topbar-badge{font-size:11px;padding:2px 8px}
+  }
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- 公告条 -->
+<div class="pt-topbar" id="ptTopbar">
+  <div class="pt-wrap pt-topbar-inner">
+    <span class="pt-topbar-badge">官方发布</span>
+    <div class="pt-topbar-marquee">
+      <span>
+        <b>《白桃少女·春日纪事》EP07 已上线</b> 记录小镇四月的风与单车<i></i>
+        <b>2026 白桃少女创作者扶持计划报名开启</b> 面向所有热爱影像的女生<i></i>
+        <b>「我和我的十七岁」主题征集正在进行</b> 上传你的原创短片参与投票<i></i>
+        <b>白桃少女官方网站全新版本上线</b> 搜索、收藏与创作者主页全面升级
+      </span>
+    </div>
+    <button class="pt-topbar-close" id="ptTopbarClose" aria-label="关闭公告条">✕</button>
+  </div>
+</div>
+
+<!-- 页头 -->
+<header class="pt-header" id="ptHeader">
+  <div class="pt-wrap pt-header-inner">
+    <a class="pt-logo" href="#ptHome" aria-label="白桃少女官方网站首页">
+      <span class="pt-logo-mark">桃</span>
+      <span class="pt-logo-text">
+        <b>白桃少女</b>
+        <small>PEACH GIRL STUDIO</small>
+      </span>
+    </a>
+    <nav class="pt-nav" aria-label="主导航">
+      <a href="#ptHome">首页</a>
+      <a href="#ptAbout">关于我们</a>
+      <a href="#ptFocus">焦点内容</a>
+      <a href="#ptStream">视频</a>
+      <a href="#ptSpecial">专题企划</a>
+      <a href="#ptCreator">创作者</a>
+      <a href="#ptNews">企业动态</a>
+      <a href="#ptFaq">帮助中心</a>
+    </nav>
+    <div class="pt-search">
+      <input type="search" id="ptSearchInput" placeholder="搜索视频、创作者或专题" aria-label="站内搜索">
+      <button id="ptSearchBtn" aria-label="搜索">🔍</button>
+    </div>
+    <button class="pt-burger" id="ptBurger" aria-label="展开导航" aria-expanded="false">☰</button>
+  </div>
+  <div class="pt-wrap">
+    <div class="pt-search-feedback" id="ptSearchFeedback"></div>
+    <nav class="pt-mobile-nav" id="ptMobileNav" aria-label="移动端导航">
+      <a href="#ptHome">首页</a>
+      <a href="#ptAbout">关于我们</a>
+      <a href="#ptFocus">焦点内容</a>
+      <a href="#ptStream">视频</a>
+      <a href="#ptSpecial">专题企划</a>
+      <a href="#ptCreator">创作者</a>
+      <a href="#ptNews">企业动态</a>
+      <a href="#ptFaq">帮助中心</a>
+      <a href="#ptContact">联系与投稿</a>
+    </nav>
+  </div>
+</header>
+
+<!-- 首屏 -->
+<section class="pt-hero pt-anchor" id="ptHome">
+  <div class="pt-wrap pt-hero-grid">
+    <div>
+      <span class="pt-hero-tag">✦ 品牌官方网站 · 持续运营第十一年</span>
+      <h1>白桃少女</h1>
+      <p class="pt-hero-slogan">把少女的日常，拍成值得收藏的高清影像。</p>
+      <p class="pt-hero-intro">
+        白桃少女是一个以青春成长为主题的原创视频品牌与企业内容平台，深耕少女生活纪录、人物访谈与在地文化影像。我们相信真实的日常自有力量，以专业制作与匠心剪辑，把细小的成长瞬间留下来，也为每一位创作者提供值得信赖的内容生态与展示舞台。
+      </p>
+      <div class="pt-hero-actions">
+        <a class="pt-btn pt-btn-primary" href="#ptStream">探索精品内容</a>
+        <a class="pt-btn pt-btn-ghost" href="#ptContact">投稿与合作</a>
+      </div>
+      <div class="pt-hero-stats">
+        <div class="pt-stat"><b data-count="1280">1280</b><span>部原创短片</span></div>
+        <div class="pt-stat"><b data-count="326">326</b><span>位签约创作者</span></div>
+        <div class="pt-stat"><b data-count="94">94</b><span>万社区成员</span></div>
+      </div>
+    </div>
+    <div class="pt-hero-visual">
+      <div class="pt-hero-cover">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 880 600'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ffe4ea'/%3E%3Cstop offset='0.55' stop-color='%23ffd0b8'/%3E%3Cstop offset='1' stop-color='%23f7b7c8'/%3E%3C/linearGradient%3E%3ClinearGradient id='hill' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23f7a8bb'/%3E%3Cstop offset='1' stop-color='%23e0779a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='880' height='600' fill='url(%23sky)'/%3E%3Ccircle cx='690' cy='150' r='86' fill='%23fff3d6' opacity='0.9'/%3E%3Ccircle cx='690' cy='150' r='120' fill='%23fff3d6' opacity='0.3'/%3E%3Cpath d='M0 430 Q220 320 440 420 T880 380 V600 H0Z' fill='%23f2b7c6' opacity='0.85'/%3E%3Cpath d='M0 500 Q250 410 520 490 T880 460 V600 H0Z' fill='url(%23hill)'/%3E%3Cg opacity='0.5'%3E%3Cpath d='M140 220 q-22 -46 26 -66 q48 20 26 66 q-26 22 -52 0z' fill='%23fff'/%3E%3Cpath d='M240 178 q-16 -34 20 -48 q36 14 20 48 q-20 16 -40 0z' fill='%23fff'/%3E%3C/g%3E%3Cg transform='translate(300 300)'%3E%3Ccircle cx='0' cy='-70' r='34' fill='%23f9d4c0'/%3E%3Cpath d='M-38 -64 q10 -56 38 -56 q30 0 40 56 q-20 -18 -40 -18 q-22 0 -38 18z' fill='%234a3a44'/%3E%3Cpath d='M-46 80 q0 -110 46 -110 q46 0 46 110z' fill='%23fff'/%3E%3Cpath d='M-46 80 q0 -66 46 -66 q46 0 46 66z' fill='%23ffdde4'/%3E%3C/g%3E%3Cg transform='translate(560 330)' opacity='0.9'%3E%3Ccircle cx='0' cy='-54' r='26' fill='%23f6c9b2'/%3E%3Cpath d='M-30 -50 q8 -44 30 -44 q24 0 32 44 q-16 -14 -32 -14 q-16 0 -30 14z' fill='%23564a52'/%3E%3Cpath d='M-36 66 q0 -84 36 -84 q36 0 36 84z' fill='%23fff7ef'/%3E%3C/g%3E%3Cg opacity='0.75'%3E%3Ccircle cx='180' cy='120' r='7' fill='%23fff'/%3E%3Ccircle cx='300' cy='90' r='5' fill='%23fff'/%3E%3Ccircle cx='760' cy='260' r='6' fill='%23fff'/%3E%3C/g%3E%3C/svg%3E" alt="白桃少女品牌主视觉：黄昏山坡上的少女剪影">
+      </div>
+      <div class="pt-hero-float f1">
+        <span class="dot"></span>
+        <span><b>《春日纪事》EP07</b> 正在更新</span>
+      </div>
+      <div class="pt-hero-float f2">
+        <div class="pt-hero-avatar-stack">
+          <span style="background:#ff8ea3">桃</span>
+          <span style="background:#8f7bd8">荔</span>
+          <span style="background:#f4b95c">橙</span>
+        </div>
+        <span><b>94万+</b> 社区成员</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 关键词解析 -->
+<section class="pt-section pt-about pt-anchor" id="ptAbout">
+  <div class="pt-wrap">
+    <div class="pt-about-grid">
+      <div class="pt-about-side">
+        <span class="pt-eyebrow">ABOUT PEACH GIRL</span>
+        <h2>关于白桃少女<br>一个认真记录成长的影像品牌</h2>
+        <p class="quote">“不是所有少女故事都要轰轰烈烈，那些拂过球场的风、写完的练习题、走过的路口，都值得被高清地保存下来。”</p>
+        <div class="badges">
+          <span>官方网站</span>
+          <span>原创内容</span>
+          <span>正版高清</span>
+          <span>企业级内容生态</span>
+          <span>创作者社区</span>
+          <span>社会责任</span>
+        </div>
+      </div>
+      <div class="pt-about-text">
+        <p><strong>白桃少女是一个什么品牌？</strong>白桃少女成立于 2015 年，是一家以青春成长纪录为核心的视频内容企业。我们以“真实、温暖、有力量”为创作准则，长期深耕少女日常、校园记忆、地方青年文化与女性创作者访谈等垂直领域。作为行业领先的原创影像品牌，白桃少女官方网站已累计发布超过一千二百八十部精品短片，形成完整的内容生态与创作者培养体系。</p>
+        <p>与许多强调戏剧冲突的影像不同，白桃少女更在意“日常的重量”。我们派出拍摄团队走进县城中学的清晨、南方小镇的雨季、城市写字楼的加班夜，把那些容易被忽略的画面收进镜头。一部八分钟的《晚自习之后》，可能仅仅记录了一个女生收拾书包、走出教学楼、在校门口等待母亲的过程，却因为光影与呼吸声的真实而让许多观众想起自己的十七岁。这正是白桃少女持续运营十余年依然被用户首选的核心理由——我们提供的是陪伴，而不是表演。</p>
+        <h3>从一部短片到一套内容方法论</h3>
+        <p>白桃少女的创作流程被行业视为“可复用的温柔工业”。每一个项目从选题会开始，制片人、导演与剪辑师共同讨论故事的核心情绪，再安排为期两到三周的轻量拍摄。我们坚持使用真实场景与非职业演员，保留环境音与自然光，让影像拥有呼吸感。后期阶段，团队会做三轮内部审片，确保每一帧画面都服务于情绪表达。这套方法论让白桃少女在保持高产的同时，也保持着稳定的口碑与品质。</p>
+        <h3>为创作者搭建的开放舞台</h3>
+        <p>除了自有团队制作，白桃少女还运营着面向所有女性创作者的扶持计划。每年我们开放两期报名通道，入选者可以获得拍摄设备、剪辑指导与发布资源。截至目前，已有三百二十六位创作者通过白桃少女的平台发布了人生第一部正式短片，其中有二十余位成长为拥有稳定粉丝群的签约作者。我们相信，内容生态的真正价值不在于头部有多高，而在于新人是否有一条清晰的成长路径。</p>
+        <h3>品牌理念与企业责任</h3>
+        <p>白桃少女把“用户至上”理解为一种克制：不刻意制造焦虑，不滥用情绪营销，不用猎奇标题换取点击。我们更愿意花时间打磨一个个具体的故事，让观众在观看之后获得平静与力量。同时，白桃少女积极参与青少年影像教育公益项目，为县域中学提供免费的短片创作课程，帮助更多年轻人学会用镜头表达自己。这不仅是一份社会责任，也是品牌持续创新的源泉。</p>
+        <h3>为什么选择白桃少女官方网站</h3>
+        <p>白桃少女官方网站是品牌内容的官方发布阵地。在这里，你可以按专题浏览精品内容，查看创作者的完整档案与作品序列，了解企业动态与活动报名信息，也可以直接提交你的原创作品。所有内容均为正版高清，并配有清晰的版权说明。我们希望这个站点不只是一个内容入口，更是一个让创作者与观众彼此看见、相互陪伴的社区空间。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 焦点内容 -->
+<section class="pt-section pt-anchor" id="ptFocus">
+  <div class="pt-wrap">
+    <div class="pt-section-head">
+      <span class="pt-eyebrow">焦点内容</span>
+      <h2>本周值得完整看完的几部短片</h2>
+      <p>由编辑部从近期发布的作品中挑选，涵盖日常记录、人物访谈与在地文化影像，每一部都经过三轮审片与多轮调色。</p>
+    </div>
+    <div class="pt-focus-grid">
+      <article class="pt-focus-main">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ffd6e0'/%3E%3Cstop offset='1' stop-color='%23c9a8ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='500' fill='url(%23a)'/%3E%3Crect x='90' y='90' width='250' height='320' rx='12' fill='%23fff' opacity='0.55'/%3E%3Crect x='110' y='110' width='210' height='120' rx='8' fill='%23f7a8bb'/%3E%3Crect x='110' y='248' width='130' height='10' rx='5' fill='%23e0779a'/%3E%3Crect x='110' y='272' width='180' height='10' rx='5' fill='%23e0779a' opacity='0.6'/%3E%3Crect x='110' y='296' width='150' height='10' rx='5' fill='%23e0779a' opacity='0.4'/%3E%3Ccircle cx='560' cy='180' r='70' fill='%23fff' opacity='0.4'/%3E%3Cpath d='M420 400 q80 -140 180 -140 q100 0 180 140z' fill='%238f7bd8' opacity='0.5'/%3E%3Cpath d='M540 150 l40 70 h-80z' fill='%23fff' opacity='0.85'/%3E%3C/svg%3E" alt="短片《晚自习之后》封面：教室窗边整理书本的女生剪影">
+        <div class="mask">
+          <span class="tag">本周焦点 · 日常记录</span>
+          <h3>晚自习之后：一个女生与她的十七岁走廊</h3>
+          <p>八分钟的长镜头跟拍，记录放学后一个人走过的教学楼、校门与回家的公交站台，环境音与自然光成为主角。</p>
+          <div class="meta">
+            <span>导演 桃屿</span>
+            <span>时长 08:24</span>
+            <span>2026-11-12 发布</span>
+          </div>
+        </div>
+      </article>
+      <div class="pt-focus-side">
+        <article class="pt-mini">
+          <div class="thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240'%3E%3Cdefs%3E%3ClinearGradient id='b' x1='0' y1='1' x2='0' y2='0'%3E%3Cstop offset='0' stop-color='%23ffcf8f'/%3E%3Cstop offset='1' stop-color='%23ffeaf2'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='400' height='240' fill='url(%23b)'/%3E%3Ccircle cx='300' cy='70' r='40' fill='%23fff' opacity='0.8'/%3E%3Cpath d='M0 200 Q100 150 200 190 T400 170 V240 H0Z' fill='%23e8a05c' opacity='0.6'/%3E%3Crect x='60' y='120' width='30' height='90' fill='%23b7713e'/%3E%3Ccircle cx='75' cy='110' r='30' fill='%23f4b95c'/%3E%3C/svg%3E" alt="短片《她的小面馆》封面：傍晚街角亮灯的小面馆">
+            <span class="play">▶</span>
+          </div>
+          <div class="info">
+            <h4>她的小面馆：一碗面与一座小城</h4>
+            <div class="by"><span>橙子酱</span><span>12:06</span></div>
+          </div>
+        </article>
+        <article class="pt-mini">
+          <div class="thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240'%3E%3Cdefs%3E%3ClinearGradient id='c' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23cfe9ff'/%3E%3Cstop offset='1' stop-color='%23e6fff6'/%3E%3C/defs%3E%3Crect width='400' height='240' fill='url(%23c)'/%3E%3Cpath d='M0 190 L120 90 L220 190Z' fill='%237fc9b8' opacity='0.7'/%3E%3Cpath d='M160 190 L280 70 L400 190Z' fill='%238fd6e8' opacity='0.8'/%3E%3Ccircle cx='80' cy='60' r='26' fill='%23fff' opacity='0.8'/%3E%3C/svg%3E" alt="短片《雨停之前》封面：山间雨后云雾与青绿色山脊">
+            <span class="play">▶</span>
+          </div>
+          <div class="info">
+            <h4>雨停之前：南方山城的二十四小时</h4>
+            <div class="by"><span>荔枝鱼</span><span>16:40</span></div>
+          </div>
+        </article>
+        <article class="pt-mini">
+          <div class="thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240'%3E%3Cdefs%3E%3ClinearGradient id='d' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f3d9ff'/%3E%3Cstop offset='1' stop-color='%23ffd9c4'/%3E%3C/defs%3E%3Crect width='400' height='240' fill='url(%23d)'/%3E%3Crect x='150' y='50' width='100' height='140' rx='10' fill='%23fff' opacity='0.7'/%3E%3Ccircle cx='200' cy='110' r='26' fill='%238f7bd8' opacity='0.7'/%3E%3Crect x='60' y='170' width='280' height='12' rx='6' fill='%23e0779a' opacity='0.45'/%3E%3C/svg%3E" alt="短片《第一次剪辑》封面：桌面上的屏幕与鼠标轨迹">
+            <span class="play">▶</span>
+          </div>
+          <div class="info">
+            <h4>第一次剪辑：把素材变成故事的七天</h4>
+            <div class="by"><span>阿桃同学</span><span>09:18</span></div>
+          </div>
+        </article>
+        <article class="pt-mini">
+          <div class="thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240'%3E%3Cdefs%3E%3ClinearGradient id='e' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ffd6c9'/%3E%3Cstop offset='1' stop-color='%23ffeef2'/%3E%3C/defs%3E%3Crect width='400' height='240' fill='url(%23e)'/%3E%3Cg transform='translate(200 130)'%3E%3Ccircle cx='0' cy='-30' r='22' fill='%23f9d0b8'/%3E%3Cpath d='M-25 -28 q7 -36 25 -36 q20 0 27 36 q-13 -10 -27 -10 q-14 0 -25 10z' fill='%23564a52'/%3E%3Cpath d='M-30 50 q0 -64 30 -64 q30 0 30 64z' fill='%23fff'/%3E%3C/g%3E%3C/svg%3E" alt="短片《她说》封面：访谈镜头中的创作者侧脸">
+            <span class="play">▶</span>
+          </div>
+          <div class="info">
+            <h4>她说：和三位女性创作者聊创作焦虑</h4>
+            <div class="by"><span>白桃编辑室</span><span>21:32</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 视频流 -->
+<section class="pt-section pt-anchor" id="ptStream" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="pt-wrap">
+    <div class="pt-section-head">
+      <span class="pt-eyebrow">视频流 · 可筛选</span>
+      <h2>持续更新的精品内容库</h2>
+      <p>以下作品均来自白桃少女官方团队与签约创作者，内容涵盖校园、家庭、城市与手作等方向。点击标签可快速筛选，收藏与点赞状态会即时同步。</p>
+    </div>
+    <div class="pt-stream-grid" id="ptStreamGrid">
+
+      <article class="pt-card" data-tag="日常记录">
+        <div class="cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='f1' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ffe9ef'/%3E%3Cstop offset='1' stop-color='%23ffc3d2'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23f1)'/%3E%3Crect x='0' y='190' width='480' height='80' fill='%23f0a9be'/%3E%3Cg%3E%3Crect x='60' y='120' width='120' height='80' rx='6' fill='%23fff' opacity='0.8'/%3E%3Crect x='76' y='136' width='88' height='10' rx='5' fill='%23e0779a'/%3E%3Crect x='76' y='156' width='60' height='10' rx='5' fill='%23e0779a' opacity='0.6'/%3E%3C/g%3E%3Ccircle cx='360' cy='80' r='46' fill='%23fff' opacity='0.7'/%3E%3Cpath d='M250 270 q60 -100 130 -100 q70 0 100 100z' fill='%238f7bd8' opacity='0.4'/%3E%3C/svg%3E" alt="视频《我的书桌改造计划》封面：粉色墙面前的书桌与台灯">
+          <span class="pill">日常记录</span>
+          <span class="dur">10:14</span>
+        </div>
+        <div class="body">
+          <h3>我的书桌改造计划：用一百元换一个学习角落</h3>
+          <p class="desc">从旧桌面到收纳改造，记录一个普通女生如何用有限预算把书桌变成让自己安心的角落。</p>
+          <div class="tags"><span>家居收纳</span><span>教程干货</span></div>
+          <div class="foot">
+            <div class="author"><span class="av" style="background:#ff8ea3">桃</span><span>桃屿</span></div>
+            <div class="ops">
+              <button class="pt-op" data-like>♡ <em data-num="1286" style="font-style:normal">1286</em></button>
+              <button class="pt-op" data-fav>☆ 收藏</button>
+              <button class="pt-op" data-share>分享</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="pt-card" data-tag="人物访谈">
+        <div class="cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='f2' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23dcd0ff'/%3E%3Cstop offset='1' stop-color='%23ffe0ec'/%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23f2)'/%3E%3Cg transform='translate(240 150)'%3E%3Ccircle cx='0' cy='-40' r='30' fill='%23f7cdb6'/%3E%3Cpath d='M-34 -36 q9 -48 34 -48 q28 0 36 48 q-17 -13 -36 -13 q-19 0 -34 13z' fill='%234d3f4a'/%3E%3Cpath d='M-42 60 q0 -86 42 -86 q42 0 42 86z' fill='%23fff' opacity='0.9'/%3E%3C/g%3E%3Crect x='40' y='40' width='70' height='70' rx='10' fill='%23fff' opacity='0.45'/%3E%3Crect x='370' y='180' width='80' height='50' rx='10' fill='%23fff' opacity='0.45'/%3E%3C/svg%3E" alt="视频《她说：写作是另一种镜头》封面：访谈场景中的创作者肖像">
+          <span class="pill">人物访谈</span>
+          <span class="dur">18:52</span>
+        </div>
+        <div class="body">
+          <h3>她说：写作是另一种镜头，聊聊文字与影像的互相翻译</h3>
+          <p class="desc">邀请两位长期书写少女题材的作者，谈她们如何在纸上搭建场景，又如何看待镜头对文字的改变。</p>
+          <div class="tags"><span>人物访谈</span><span>创作幕后</span></div>
+          <div class="foot">
+            <div class="author"><span class="av" style="background:#8f7bd8">白</span><span>白桃编辑室</span></div>
+            <div class="ops">
+              <button class="pt-op" data-like>♡ <em data-num="2043" style="font-style:normal">2043</em></button>
+              <button class="pt-op" data-fav>☆ 收藏</button>
+              <button class="pt-op" data-share>分享</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="pt-card" data-tag="城市探索">
+        <div class="cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='f3' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23a9d4ff'/%3E%3Cstop offset='1' stop-color='%23ffe8c9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23f3)'/%3E%3Crect x='40' y='130' width='60' height='140' fill='%23c98f6a' opacity='0.7'/%3E%3Crect x='120' y='90' width='70' height='180' fill='%23e0a479' opacity='0.8'/%3E%3Crect x='210' y='150' width='55' height='120' fill='%23b97a55' opacity='0.7'/%3E%3Crect x='290' y='110' width='80' height='160' fill='%23d99b73' opacity='0.75'/%3E%3Ccircle cx='390' cy='70' r='34' fill='%23fff' opacity='0.85'/%3E%3C/svg%3E" alt="视频《老城区的一百级台阶》封面：暖色夕阳下的老城建筑群">
+          <span class="pill">城市探索</span>
+          <span class="dur">14:38</span>
+        </div>
+        <div class="body">
+          <h3>老城区的一百级台阶：跟着本地女孩走一遍回家路</h3>
+          <p class="desc">穿过菜市场、理发店与旧电影院，用一百级台阶串起一个女孩从小到大的城市记忆。</p>
+          <div class="tags"><span>城市探索</span><span>在地文化</span></div>
+          <div class="foot">
+            <div class="author"><span class="av" style="background:#f4b95c">荔</span><span>荔枝鱼</span></div>
+            <div class="ops">
+              <button class="pt-op" data-like>♡ <em data-num="1567" style="font-style:normal">1567</em></button>
+              <button class="pt-op" data-fav>☆ 收藏</button>
+              <button class="pt-op" data-share>分享</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="pt-card" data-tag="手作">
+        <div class="cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='f4' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23fff2d1'/%3E%3Cstop offset='1' stop-color='%23ffd8e2'/%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23f4)'/%3E%3Crect x='110' y='170' width='260' height='14' rx='7' fill='%23e0a479' opacity='0.6'/%3E%3Ccircle cx='190' cy='120' r='44' fill='%23f7a8bb' opacity='0.8'/%3E%3Ccircle cx='270' cy='132' r='34' fill='%2398d8c4' opacity='0.8'/%3E%3Crect x='310' y='96' width='46' height='46' rx='8' fill='%23f4b95c' opacity='0.85'/%3E%3C/svg%3E" alt="视频《做一只布艺白桃》封面：桌面上的布料与手作工具">
+          <span class="pill">手作</span>
+          <span class="dur">07:45</span>
+        </div>
+        <div class="body">
+          <h3>做一只布艺白桃：零基础也能完成的周末小物</h3>
+          <p class="desc">从画纸样到缝合填充，一步步做出一只软乎乎的布艺桃子，附完整材料清单与尺寸说明。</p>
+          <div class="tags"><span>手作DIY</span><span>实用技巧</span></div>
+          <div class="foot">
+            <div class="author"><span class="av" style="background:#7fd6c2">橙</span><span>橙子酱</span></div>
+            <div class="ops">
+              <button class="pt-op" data-like>♡ <em data-num="986" style="font-style:normal">986</em></button>
+              <button class="pt-op" data-fav>☆ 收藏</button>
+              <button class="pt-op" data-share>分享</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="pt-card" data-tag="治愈影像">
+        <div class="cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='f5' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23e8f6ff'/%3E%3Cstop offset='1' stop-color='%23ffffff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23f5)'/%3E%3Cpath d='M0 210 Q120 170 240 200 T480 180 V270 H0Z' fill='%23cfe3d6'/%3E%3Ccircle cx='120' cy='70' r='30' fill='%23ffe6a8'/%3E%3Cpath d='M300 190 q10 -60 44 -60 q34 0 44 60z' fill='%239fc9a8'/%3E%3Crect x='340' y='120' width='8' height='70' fill='%238a6e52'/%3E%3C/svg%3E" alt="视频《四月的风穿过阳台》封面：清晨阳台上的绿植与阳光">
+          <span class="pill">治愈影像</span>
+          <span class="dur">05:32</span>
+        </div>
+        <div class="body">
+          <h3>四月的风穿过阳台：一个关于晾衣服的安静短片</h3>
+          <p class="desc">没有台词，只有风声、衣架碰撞声与楼下偶尔传来的自行车铃。适合在睡前的十分钟里看完。</p>
+          <div class="tags"><span>治愈影像</span><span>日常记录</span></div>
+          <div class="foot">
+            <div class="author"><span class="av" style="background:#ff8ea3">桃</span><span>桃屿</span></div>
+            <div class="ops">
+              <button class="pt-op" data-like>♡ <em data-num="3320" style="font-style:normal">3320</em></button>
+              <button class="pt-op" data-fav>☆ 收藏</button>
+              <button class="pt-op" data-share>分享</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="pt-card" data-tag="科技前沿">
+        <div class="cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='f6' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232a2333'/%3E%3Cstop offset='1' stop-color='%23483a5a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23f6)'/%3E%3Cg stroke='%237fd6c2' stroke-width='2' opacity='0.9'%3E%3Cpath d='M80 190 L160 120 L240 170 L320 90 L400 150' fill='none'/%3E%3C/g%3E%3Ccircle cx='160' cy='120' r='7' fill='%23ff9fb2'/%3E%3Ccircle cx='320' cy='90' r='7' fill='%23f4b95c'/%3E%3Crect x='60' y='210' width='360' height='2' fill='%23ffffff' opacity='0.25'/%3E%3C/svg%3E" alt="视频《我用AI做了一部短片》封面：深色界面上的数据曲线">
+          <span class="pill">科技前沿</span>
+          <span class="dur">16:09</span>
+        </div>
+        <div class="body">
+          <h3>我用 AI 做了一部短片：工具、流程与踩过的坑</h3>
+          <p class="desc">完整记录一次人机协作的短片创作，从脚本拆解到分镜生成，坦诚聊聊哪些环节还不能被替代。</p>
+          <div class="tags"><span>科技前沿</span><span>创作幕后</span></div>
+          <div class="foot">
+            <div class="author"><span class="av" style="background:#8f7bd8">阿</span><span>阿桃同学</span></div>
+            <div class="ops">
+              <button class="pt-op" data-like>♡ <em data-num="2874" style="font-style:normal">2874</em></button>
+              <button class="pt-op" data-fav>☆ 收藏</button>
+              <button class="pt-op" data-share>分享</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- 专题企划 -->
+<section class="pt-section pt-anchor" id="ptSpecial">
+  <div class="pt-wrap">
+    <div class="pt-section-head">
+      <span class="pt-eyebrow">专题企划</span>
+      <h2>正在进行的长期内容企划</h2>
+      <p>白桃少女以专题方式长期跟进同一主题，用持续更新的方式积累内容厚度。每个企划都开放投稿与报名。</p>
+    </div>
+    <div class="pt-special-grid">
+      <article class="pt-special">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 320'%3E%3Cdefs%3E%3ClinearGradient id='s1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ffb7c9'/%3E%3Cstop offset='1' stop-color='%23ffd8b0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='500' height='320' fill='url(%23s1)'/%3E%3Cg opacity='0.85'%3E%3Cpath d='M120 240 q-30 -90 40 -120 q70 30 40 120z' fill='%23fff'/%3E%3Cpath d='M270 250 q-26 -70 34 -94 q60 24 34 94z' fill='%23fff' opacity='0.85'/%3E%3C/g%3E%3Ccircle cx='390' cy='80' r='36' fill='%23fff' opacity='0.7'/%3E%3C/svg%3E" alt="专题《我和我的十七岁》封面：春日花树与少女背影">
+        <span class="st">长期企划</span>
+        <h3>我和我的十七岁</h3>
+        <p>征集所有人关于十七岁的影像记忆，可以是校园、家庭，也可以是一段没有结局的暗恋。</p>
+        <span class="upd">更新至 第 42 期 · 持续征集中</span>
+      </article>
+      <article class="pt-special">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 320'%3E%3Cdefs%3E%3ClinearGradient id='s2' x1='0' y1='1' x2='0' y2='0'%3E%3Cstop offset='0' stop-color='%23c9a8ff'/%3E%3Cstop offset='1' stop-color='%23e8f0ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='500' height='320' fill='url(%23s2)'/%3E%3Ccircle cx='160' cy='140' r='56' fill='%23fff' opacity='0.7'/%3E%3Crect x='280' y='90' width='120' height='150' rx='10' fill='%23fff' opacity='0.55'/%3E%3Cpath d='M60 280 L250 200 L440 280Z' fill='%238f7bd8' opacity='0.5'/%3E%3C/svg%3E" alt="专题《她说创作》封面：访谈房间与柔和灯光">
+        <span class="st">人物访谈</span>
+        <h3>她说创作</h3>
+        <p>每月与三位女性创作者对谈，聊灵感、聊失败、聊如何在不被看好的时候继续拍下去。</p>
+        <span class="upd">已更新 18 期 · 每月更新</span>
+      </article>
+      <article class="pt-special">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 320'%3E%3Cdefs%3E%3ClinearGradient id='s3' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2398d8c4'/%3E%3Cstop offset='1' stop-color='%23f3ffe9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='500' height='320' fill='url(%23s3)'/%3E%3Cpath d='M0 230 Q120 170 250 220 T500 200 V320 H0Z' fill='%2370b39b' opacity='0.6'/%3E%3Ccircle cx='380' cy='90' r='30' fill='%23fff' opacity='0.8'/%3E%3Cg stroke='%23ffffff' stroke-width='4' opacity='0.6'%3E%3Cpath d='M80 150 l30 -30 l30 30'/%3E%3Cpath d='M170 130 l24 -24 l24 24'/%3E%3C/g%3E%3C/svg%3E" alt="专题《回到小镇》封面：绿色山坡与小镇轮廓">
+        <span class="st">城市探索</span>
+        <h3>回到小镇</h3>
+        <p>跟随在外读书、工作的年轻人回到自己的小城，记录他们与家乡重新和解的过程。</p>
+        <span class="upd">已更新 26 期 · 每双周更新</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 创作者矩阵 -->
+<section class="pt-section pt-anchor" id="ptCreator" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="pt-wrap">
+    <div class="pt-section-head">
+      <span class="pt-eyebrow">创作者矩阵</span>
+      <h2>让每一位创作者被看见</h2>
+      <p>白桃少女签约与合作的创作者分布在纪录、访谈、手作与生活实验等方向。点击“查看主页”可了解其完整作品序列。</p>
+    </div>
+    <div class="pt-creator-grid">
+      <article class="pt-creator">
+        <div class="pt-creator-top">
+          <span class="avatar" style="background:linear-gradient(135deg,#ff8ea3,#ffb98f)">桃</span>
+          <div class="who"><b>桃屿</b><span>日常记录 · 治愈影像</span></div>
+        </div>
+        <p>擅长把平凡的一天拆成可触摸的光影。她相信镜头不该打扰生活，最好的画面往往发生在等待之后。</p>
+        <div class="stats"><span>作品 <b>86</b></span><span>粉丝 <b>18.4万</b></span></div>
+        <button class="more" data-author="桃屿">查看主页 →</button>
+      </article>
+      <article class="pt-creator">
+        <div class="pt-creator-top">
+          <span class="avatar" style="background:linear-gradient(135deg,#8f7bd8,#c9a8ff)">荔</span>
+          <div class="who"><b>荔枝鱼</b><span>城市探索 · 在地文化</span></div>
+        </div>
+        <p>南方小城出生，带着相机走遍家乡的每一条巷子。作品以长镜头和方言解说见长，被观众称为“慢速旅行指南”。</p>
+        <div class="stats"><span>作品 <b>64</b></span><span>粉丝 <b>12.7万</b></span></div>
+        <button class="more" data-author="荔枝鱼">查看主页 →</button>
+      </article>
+      <article class="pt-creator">
+        <div class="pt-creator-top">
+          <span class="avatar" style="background:linear-gradient(135deg,#f4b95c,#ffd98f)">橙</span>
+          <div class="who"><b>橙子酱</b><span>手作 DIY · 美食烹饪</span></div>
+        </div>
+        <p>手工与厨房的双料爱好者，视频节奏轻快，步骤清晰。她的目标是让每个看过片子的人都能动手试试。</p>
+        <div class="stats"><span>作品 <b>112</b></span><span>粉丝 <b>22.1万</b></span></div>
+        <button class="more" data-author="橙子酱">查看主页 →</button>
+      </article>
+      <article class="pt-creator">
+        <div class="pt-creator-top">
+          <span class="avatar" style="background:linear-gradient(135deg,#7fd6c2,#a8e6d8)">阿</span>
+          <div class="who"><b>阿桃同学</b><span>科技前沿 · 创作幕后</span></div>
+        </div>
+        <p>工科在读，热衷把新工具拆开研究。她的视频从不神化技术，而是诚实呈现每一次失败与重来。</p>
+        <div class="stats"><span>作品 <b>48</b></span><span>粉丝 <b>9.6万</b></span></div>
+        <button class="more" data-author="阿桃同学">查看主页 →</button>
+      </article>
+      <article class="pt-creator">
+        <div class="pt-creator-top">
+          <span class="avatar" style="background:linear-gradient(135deg,#e0779a,#ffb0c1)">白</span>
+          <div class="who"><b>白桃编辑室</b><span>人物访谈 · 深度内容</span></div>
+        </div>
+        <p>由白桃少女品牌团队运营的官方账号，负责专题企划与深度访谈，也是品牌动态的第一发布窗口。</p>
+        <div class="stats"><span>作品 <b>203</b></span><span>粉丝 <b>31.5万</b></span></div>
+        <button class="more" data-author="白桃编辑室">查看主页 →</button>
+      </article>
+      <article class="pt-creator">
+        <div class="pt-creator-top">
+          <span class="avatar" style="background:linear-gradient(135deg,#a8c8ff,#cfe3ff)">夏</span>
+          <div class="who"><b>夏屿未至</b><span>情感故事 · 校园影像</span></div>
+        </div>
+        <p>新人创作者，擅长用极短篇幅讲完整故事。她第一部短片上线两周即获得社区推荐位。</p>
+        <div class="stats"><span>作品 <b>12</b></span><span>粉丝 <b>2.3万</b></span></div>
+        <button class="more" data-author="夏屿未至">查看主页 →</button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 影像墙 -->
+<section class="pt-section pt-wall pt-anchor" id="ptWall">
+  <div class="pt-wrap">
+    <div class="pt-section-head">
+      <span class="pt-eyebrow">用户作品墙</span>
+      <h2>来自社区的真实影像</h2>
+      <p>以下作品均由社区成员上传，经编辑审核后展示。我们尊重每一种表达，也保护每一位创作者的署名权。</p>
+    </div>
+    <div class="pt-wall-grid">
+      <figure class="pt-wall-item pt-w-big">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'%3E%3Cdefs%3E%3ClinearGradient id='w1' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ffe3ea'/%3E%3Cstop offset='1' stop-color='%23ffc6b3'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='600' height='400' fill='url(%23w1)'/%3E%3Ccircle cx='440' cy='110' r='58' fill='%23fff' opacity='0.8'/%3E%3Cpath d='M0 300 Q150 230 300 290 T600 270 V400 H0Z' fill='%23e8a05c' opacity='0.6'/%3E%3Cg transform='translate(220 260)'%3E%3Ccircle cx='0' cy='-60' r='28' fill='%23f7cdb6'/%3E%3Cpath d='M-32 -56 q8 -42 32 -42 q26 0 34 42 q-16 -12 -34 -12 q-18 0 -32 12z' fill='%23564a52'/%3E%3Cpath d='M-38 60 q0 -80 38 -80 q38 0 38 80z' fill='%23fff' opacity='0.92'/%3E%3C/g%3E%3C/svg%3E" alt="用户作品《黄昏时分的操场》封面：夕阳下操场上的人影">
+        <figcaption class="cap">黄昏时分的操场 · 作者 半夏</figcaption>
+      </figure>
+      <figure class="pt-wall-item">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%23e8f6ff'/%3E%3Crect x='40' y='70' width='70' height='90' fill='%23a8c8ff' opacity='0.8'/%3E%3Crect x='130' y='50' width='60' height='110' fill='%237fa8e8' opacity='0.8'/%3E%3Crect x='210' y='90' width='50' height='70' fill='%23a8c8ff' opacity='0.6'/%3E%3Ccircle cx='250' cy='40' r='20' fill='%23fff'/%3E%3C/svg%3E" alt="用户作品《窗外的楼与云》封面：简洁的城市窗景">
+        <figcaption class="cap">窗外的楼与云 · 作者 小满</figcaption>
+      </figure>
+      <figure class="pt-wall-item pt-w-tall">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Cdefs%3E%3ClinearGradient id='w3' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23f3d9ff'/%3E%3Cstop offset='1' stop-color='%23ffe0e8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='300' height='400' fill='url(%23w3)'/%3E%3Crect x='60' y='120' width='180' height='220' rx='12' fill='%23fff' opacity='0.7'/%3E%3Ccircle cx='150' cy='200' r='34' fill='%238f7bd8' opacity='0.7'/%3E%3Crect x='90' y='260' width='120' height='10' rx='5' fill='%23e0779a' opacity='0.6'/%3E%3Crect x='105' y='282' width='90' height='10' rx='5' fill='%23e0779a' opacity='0.4'/%3E%3C/svg%3E" alt="用户作品《书桌前的深夜》封面：竖向构图的深夜书桌">
+        <figcaption class="cap">书桌前的深夜 · 作者 夜灯</figcaption>
+      </figure>
+      <figure class="pt-wall-item">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%23fff2d1'/%3E%3Ccircle cx='90' cy='110' r='40' fill='%23f4b95c' opacity='0.8'/%3E%3Ccircle cx='170' cy='130' r='32' fill='%23ff9fb2' opacity='0.8'/%3E%3Crect x='220' y='80' width='50' height='50' rx='8' fill='%2398d8c4' opacity='0.8'/%3E%3C/svg%3E" alt="用户作品《桌上的三个颜色》封面：暖色静物构成">
+        <figcaption class="cap">桌上的三个颜色 · 作者 橘子</figcaption>
+      </figure>
+      <figure class="pt-wall-item pt-w-wide">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 200'%3E%3Cdefs%3E%3ClinearGradient id='w5' x1='0' y1='0' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%2398d8c4'/%3E%3Cstop offset='1' stop-color='%23e8f6ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='600' height='200' fill='url(%23w5)'/%3E%3Cpath d='M0 150 Q150 100 300 140 T600 120 V200 H0Z' fill='%2370b39b' opacity='0.6'/%3E%3Ccircle cx='480' cy='60' r='26' fill='%23fff' opacity='0.8'/%3E%3C/svg%3E" alt="用户作品《雨后的河边小路》封面：横向延展的河岸景象">
+        <figcaption class="cap">雨后的河边小路 · 作者 阿禾</figcaption>
+      </figure>
+      <figure class="pt-wall-item">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%23ffe8ef'/%3E%3Cg transform='translate(150 110)'%3E%3Ccircle cx='0' cy='-24' r='20' fill='%23f7cdb6'/%3E%3Cpath d='M-24 -22 q6 -32 24 -32 q18 0 24 32 q-12 -9 -24 -9 q-12 0 -24 9z' fill='%23564a52'/%3E%3Cpath d='M-28 46 q0 -58 28 -58 q28 0 28 58z' fill='%23fff'/%3E%3C/g%3E%3C/svg%3E" alt="用户作品《妹妹的第一张照片》封面：浅粉色背景上的孩童肖像">
+        <figcaption class="cap">妹妹的第一张照片 · 作者 一一</figcaption>
+      </figure>
+      <figure class="pt-wall-item">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Cdefs%3E%3ClinearGradient id='w7' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232f2a33'/%3E%3Cstop offset='1' stop-color='%234a3a55'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='300' height='200' fill='url(%23w7)'/%3E%3Ccircle cx='90' cy='60' r='30' fill='%23ff9fb2' opacity='0.8'/%3E%3Cpath d='M0 180 L100 110 L200 160 L300 100 V200 H0Z' fill='%23f4b95c' opacity='0.35'/%3E%3C/svg%3E" alt="用户作品《夜骑》封面：深色城市夜景与路灯轨迹">
+        <figcaption class="cap">夜骑 · 作者 月亮不睡</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- 口碑评价 -->
+<section class="pt-section pt-anchor" id="ptReview">
+  <div class="pt-wrap">
+    <div class="pt-section-head">
+      <span class="pt-eyebrow">社区口碑</span>
+      <h2>来自观众与创作者的真实反馈</h2>
+      <p>白桃少女的每一条评价都由真实用户发布，我们不做删改，只做核实。口碑是品牌最珍贵的资产。</p>
+    </div>
+    <div class="pt-review-grid">
+      <article class="pt-review">
+        <div class="top">
+          <span class="avatar" style="background:#ff8ea3">晴</span>
+          <div><b>晴空小满</b><small>社区成员 · 加入 3 年</small></div>
+          <span class="stars">★★★★★</span>
+        </div>
+        <p>最打动我的是白桃少女从不硬塞情绪。看《晚自习之后》的时候我一句话都没说，看完才发现自己一直在屏住呼吸。那种克制的温柔，在别的地方很难遇到。</p>
+      </article>
+      <article class="pt-review">
+        <div class="top">
+          <span class="avatar" style="background:#8f7bd8">阿</span>
+          <div><b>阿萝</b><small>签约创作者 · 加入 2 年</small></div>
+          <span class="stars">★★★★★</span>
+        </div>
+        <p>作为新人，我第一部片子是在白桃少女的扶持计划里完成的。剪辑老师陪我一帧一帧过，没有因为我水平差就敷衍。这里的专业是具体到每个画面的。</p>
+      </article>
+      <article class="pt-review">
+        <div class="top">
+          <span class="avatar" style="background:#f4b95c">林</span>
+          <div><b>林间有风</b><small>社区成员 · 加入 1 年</small></div>
+          <span class="stars">★★★★☆</span>
+        </div>
+        <p>内容质量确实稳定，专题企划很有耐心。唯一的建议是希望能多一些幕后花絮，有时候我对拍摄过程本身的好奇，比成片还大。</p>
+      </article>
+      <article class="pt-review">
+        <div class="top">
+          <span class="avatar" style="background:#7fd6c2">周</span>
+          <div><b>周末放映员</b><small>社区成员 · 加入 4 年</small></div>
+          <span class="stars">★★★★★</span>
+        </div>
+        <p>我把它当作每周固定的放松时间。晚上关灯，看一集十几分钟的短片，比刷短视频舒服太多。官方网站的分类做得很清楚，找片很方便。</p>
+      </article>
+      <article class="pt-review">
+        <div class="top">
+          <span class="avatar" style="background:#e8a05c">木</span>
+          <div><b>木木老师</b><small>中学教师 · 影像课合作方</small></div>
+          <span class="stars">★★★★★</span>
+        </div>
+        <p>白桃少女给我们学校做过免费的短片创作课，孩子们第一次知道原来镜头可以这样用。这不是一次性的活动，他们真的在持续跟进。</p>
+      </article>
+      <article class="pt-review">
+        <div class="top">
+          <span class="avatar" style="background:#a8c8ff">池</span>
+          <div><b>池鱼</b><small>社区成员 · 加入 半年</small></div>
+          <span class="stars">★★★★☆</span>
+        </div>
+        <p>画面和声音都很讲究，能看出是认真做的。收藏功能很好用，我建了一个“睡前看”的列表，已经攒了三十多部。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 企业动态 + 榜单 -->
+<section class="pt-section pt-anchor" id="ptNews" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="pt-wrap">
+    <div class="pt-section-head">
+      <span class="pt-eyebrow">企业动态 & 社区榜单</span>
+      <h2>官方发布的近期更新</h2>
+      <p>这里汇总白桃少女的官方发布、活动报名与内容更新日志。所有信息以本站发布为准。</p>
+    </div>
+    <div class="pt-two-col">
+      <div class="pt-news">
+        <div class="pt-news-item">
+          <div class="date">11.18<small>2026</small></div>
+          <div>
+            <h4>2026 白桃少女创作者扶持计划正式开放报名</h4>
+            <p>本期计划面向所有女性创作者，提供设备支持、剪辑指导与发布资源。报名截止至 12 月 20 日，入选名单将在官方网站公布。</p>
+          </div>
+        </div>
+        <div class="pt-news-item">
+          <div class="date">11.15<small>2026</small></div>
+          <div>
+            <h4>《春日纪事》EP07 上线，主题征集同步开启</h4>
+            <p>本集记录小镇四月的风与单车，同时开启“我和我的十七岁”主题征集，欢迎上传你的原创短片参与投票。</p>
+          </div>
+        </div>
+        <div class="pt-news-item">
+          <div class="date">11.08<small>2026</small></div>
+          <div>
+            <h4>官方网站功能升级：搜索、收藏与创作者主页</h4>
+            <p>本次更新优化了搜索筛选逻辑，新增收藏列表同步与创作者完整作品序列展示，提升整体浏览体验。</p>
+          </div>
+        </div>
+        <div class="pt-news-item">
+          <div class="date">10.30<small>2026</small></div>
+          <div>
+            <h4>白桃少女影像公益课走进第七所县域中学</h4>
+            <p>本次课程为期两天，覆盖短片构思、手机拍摄与基础剪辑，累计已服务超过六百名学生。</p>
+          </div>
+        </div>
+        <div class="pt-news-item">
+          <div class="date">10.22<small>2026</small></div>
+          <div>
+            <h4>季度内容回顾：第三季度共发布 86 部原创短片</h4>
+            <p>其中纪录类 41 部、访谈类 18 部、手作与生活类 27 部，社区投稿占比首次超过三成。</p>
+          </div>
+        </div>
+      </div>
+      <div class="pt-rank">
+        <h3>🔥 社区热度榜 · 本月</h3>
+        <ol>
+          <li><span class="t">四月的风穿过阳台</span><span class="n">3120 收藏</span></li>
+          <li><span class="t">我用 AI 做了一部短片</span><span class="n">2874 收藏</span></li>
+          <li><span class="t">她说：写作是另一种镜头</span><span class="n">2043 收藏</span></li>
+          <li><span class="t">老城区的一百级台阶</span><span class="n">1567 收藏</span></li>
+          <li><span class="t">我的书桌改造计划</span><span class="n">1286 收藏</span></li>
+          <li><span class="t">做一只布艺白桃</span><span class="n">986 收藏</span></li>
+          <li><span class="t">第一次剪辑：七天记录</span><span class="n">742 收藏</span></li>
+        </ol>
+        <h3 style="margin-top:22px">🌱 新人榜 · 本月</h3>
+        <ol>
+          <li><span class="t">夏屿未至</span><span class="n">+2.3万 粉丝</span></li>
+          <li><span class="t">一一</span><span class="n">+1.1万 粉丝</span></li>
+          <li><span class="t">月亮不睡</span><span class="n">+8400 粉丝</span></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="pt-section pt-anchor" id="ptFaq">
+  <div class="pt-wrap">
+    <div class="pt-section-head" style="text-align:center;margin-left:auto;margin-right:auto">
+      <span class="pt-eyebrow">帮助中心</span>
+      <h2>关于白桃少女的常见问题</h2>
+      <p>如果以下内容没有解决你的疑问，欢迎通过页面底部的联系方式与我们取得联系。</p>
+    </div>
+    <div class="pt-faq">
+      <details open>
+        <summary>白桃少女是一个什么样的品牌？</summary>
+        <div class="ans">白桃少女是一个专注于青春成长影像的原创视频品牌与企业内容平台，成立于 2015 年，长期深耕少女日常、校园记忆与女性创作者访谈等垂直领域。我们以真实、温暖、有力量为创作准则，为观众提供高品质的纪录短片，也为创作者搭建值得信赖的展示与成长空间。</div>
+      </details>
+      <details>
+        <summary>如何参与创作者扶持计划的报名？</summary>
+        <div class="ans">每期计划开放期间，官方网站会在企业动态栏发布报名入口与具体要求。你需要准备一支三分钟以内的原创短片、一份简短的创作自述，以及可联系的邮箱。评审分为初筛与面谈两个阶段，结果会在官方网站公示。我们不看设备与资历，只看故事是否真诚。</div>
+      </details>
+      <details>
+        <summary>我上传的作品版权归谁？</summary>
+        <div class="ans">作品的著作权始终归创作者本人所有。你在提交时授权白桃少女在官方网站及相关官方渠道进行展示与推荐，该授权不影响你在其他地方发布作品。我们会在每个作品页显著标注作者署名，未经授权不会用于商业用途。</div>
+      </details>
+      <details>
+        <summary>站点内容为什么强调高清与正版？</summary>
+        <div class="ans">高清是对影像最基本的尊重，正版是对创作者最基本的保护。白桃少女官方网站发布的所有短片均由官方团队或授权创作者提供，画面经过统一调色与压制，音频经过基础混音处理。我们不使用来源不明的素材，也不允许二次搬运。</div>
+      </details>
+      <details>
+        <summary>可以使用手机拍摄并投稿吗？</summary>
+        <div class="ans">当然可以。白桃少女的不少入选作品都拍摄于手机。我们更看重故事与情绪，而不是设备参数。建议拍摄时注意光线稳定、收音清晰，并在剪辑时保持节奏克制。如果你需要帮助，可以参考站内的“创作灵感”栏目。</div>
+      </details>
+      <details>
+        <summary>如何收藏喜欢的视频并同步到列表？</summary>
+        <div class="ans">在视频卡片右下角点击“收藏”按钮即可加入列表，按钮状态会即时变化。你的收藏列表保存在浏览器本地，换设备登录后暂不互通，我们会在后续版本中优化账号同步能力。</div>
+      </details>
+      <details>
+        <summary>品牌是否接受商业合作与联合企划？</summary>
+        <div class="ans">接受。白桃少女与生活方式、家居、美妆、教育等领域的品牌有过多次联合企划经验。我们坚持内容优先，合作内容必须与品牌调性相符，并会明确标注合作属性。合作咨询请通过底部联系方式的邮箱提交需求说明。</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- 联系与投稿 -->
+<section class="pt-section pt-contact pt-anchor" id="ptContact">
+  <div class="pt-wrap">
+    <div class="pt-contact-box">
+      <div>
+        <span class="pt-eyebrow">联系与投稿</span>
+        <h2>把你的故事交给白桃少女</h2>
+        <p>无论你是一位刚开始拍摄的创作者，还是想与我们合作的品牌方，都可以通过以下方式联系。我们会在三个工作日内回复每一封认真写下的邮件。</p>
+        <div class="pt-contact-actions">
+          <button class="pt-btn pt-btn-primary" data-modal="submit">立即投稿</button>
+          <button class="pt-btn pt-btn-ghost" data-modal="contact">商务合作</button>
+          <button class="pt-btn pt-btn-ghost" data-copy>复制本站链接</button>
+        </div>
+      </div>
+      <div class="pt-contact-list">
+        <div>
+          <span class="ic">✉</span>
+          <div><b>投稿邮箱</b><span>create@peachgirl-studio.cn</span></div>
+        </div>
+        <div>
+          <span class="ic">☎</span>
+          <div><b>合作咨询</b><span>021-6688-2046（工作日 10:00–18:00）</span></div>
+        </div>
+        <div>
+          <span class="ic">◎</span>
+          <div><b>品牌地址</b><span>上海市静安区影像创意园 B 座 5 层</span></div>
+        </div>
+        <div>
+          <span class="ic">◔</span>
+          <div><b>更新时间</b><span>官方网站每周三、周六更新内容</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 页脚 -->
+<footer class="pt-footer">
+  <div class="pt-wrap">
+    <div class="pt-footer-grid">
+      <div>
+        <div class="pt-footer-brand">
+          <span class="pt-logo-mark">桃</span>
+          <b>白桃少女</b>
+        </div>
+        <p>白桃少女官方网站，一个认真记录青春成长的原创视频品牌。我们以真实、温暖与匠心，持续运营高品质的内容生态，让每一次表达都被认真对待。</p>
+      </div>
+      <div>
+        <h4>内容</h4>
+        <ul>
+          <li><a href="#ptFocus">焦点内容</a></li>
+          <li><a href="#ptStream">视频流</a></li>
+          <li><a href="#ptSpecial">专题企划</a></li>
+          <li><a href="#ptWall">用户作品墙</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>品牌</h4>
+        <ul>
+          <li><a href="#ptAbout">关于我们</a></li>
+          <li><a href="#ptCreator">创作者矩阵</a></li>
+          <li><a href="#ptNews">企业动态</a></li>
+          <li><a href="#ptReview">社区口碑</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>支持</h4>
+        <ul>
+          <li><a href="#ptFaq">帮助中心</a></li>
+          <li><a href="#ptContact">投稿入口</a></li>
+          <li><a href="#ptContact">商务合作</a></li>
+          <li><a href="#ptContact">联系方式</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pt-footer-bottom">
+      <span>© 2015–2026 白桃少女（上海）文化传播有限公司 · 官方网站 · 版权所有</span>
+      <span>沪ICP备2026018645号-2 · 网络文化经营许可证 沪网文〔2026〕1024-318号</span>
+    </div>
+  </div>
+</footer>
+
+<button class="pt-backtop" id="ptBackTop" aria-label="回到顶部">↑</button>
+<div class="pt-toast" id="ptToast"></div>
+
+<div class="pt-modal-mask" id="ptModalMask">
+  <div class="pt-modal" role="dialog" aria-modal="true" aria-labelledby="ptModalTitle">
+    <button class="close" id="ptModalClose" aria-label="关闭">✕</button>
+    <h3 id="ptModalTitle">提示</h3>
+    <p id="ptModalText">内容</p>
+    <div class="pt-modal-actions" id="ptModalActions"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- 公告条关闭 ---------- */
+  var topbar = document.getElementById('ptTopbar');
+  var header = document.getElementById('ptHeader');
+  var topbarClose = document.getElementById('ptTopbarClose');
+  function syncHeaderTop(){
+    if(!topbar || topbar.style.display === 'none'){
+      header.style.top = '0px';
+    }else{
+      header.style.top = topbar.offsetHeight + 'px';
+    }
+  }
+  topbarClose.addEventListener('click', function(){
+    topbar.style.display = 'none';
+    syncHeaderTop();
+  });
+  window.addEventListener('resize', syncHeaderTop);
+  syncHeaderTop();
+
+  /* ---------- 移动端导航 ---------- */
+  var burger = document.getElementById('ptBurger');
+  var mobileNav = document.getElementById('ptMobileNav');
+  burger.addEventListener('click', function(){
+    var open = mobileNav.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    burger.textContent = open ? '✕' : '☰';
+  });
+  mobileNav.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){
+      mobileNav.classList.remove('open');
+      burger.setAttribute('aria-expanded','false');
+      burger.textContent = '☰';
+    });
+  });
+
+  /* ---------- Toast ---------- */
+  var toast = document.getElementById('ptToast');
+  var toastTimer = null;
+  function showToast(msg){
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('show'); }, 2200);
+  }
+
+  /* ---------- 搜索反馈 ---------- */
+  var searchInput = document.getElementById('ptSearchInput');
+  var searchBtn = document.getElementById('ptSearchBtn');
+  var searchFeedback = document.getElementById('ptSearchFeedback');
+  var searchKeywords = ['书桌','访谈','城市','手作','AI','春日','十七岁','治愈','阳台','剪辑','面馆','雨','专题','创作者'];
+  function doSearch(){
+    var val = (searchInput.value || '').trim();
+    if(!val){
+      searchFeedback.style.display = 'none';
+      return;
+    }
+    var hit = searchKeywords.some(function(k){ return val.indexOf(k) !== -1 || k.indexOf(val) !== -1; });
+    searchFeedback.style.display = 'block';
+    if(hit){
+      searchFeedback.textContent = '找到与“' + val + '”相关的内容，已为你定位到视频流栏目。';
+      var target = document.getElementById('ptStream');
+      if(target){ target.scrollIntoView({behavior:'smooth'}); }
+    }else{
+      searchFeedback.textContent = '暂未找到与“' + val + '”完全匹配的内容，可以尝试“城市”“手作”“访谈”等关键词。';
+    }
+  }
+  searchBtn.addEventListener('click', doSearch);
+  searchInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); doSearch(); }
+  });
+  searchInput.addEventListener('input', function(){
+    if(!searchInput.value.trim()){ searchFeedback.style.display = 'none'; }
+  });
+
+  /* ---------- 点赞 / 收藏 ---------- */
+  function bindOps(){
+    document.querySelectorAll('[data-like]').forEach(function(btn){
+      if(btn.dataset.bound) return;
+      btn.dataset.bound = '1';
+      btn.addEventListener('click', function(){
+        var em = btn.querySelector('[data-num]');
+        var num = parseInt(em.getAttribute('data-num'), 10);
+        if(btn.classList.contains('active')){
+          num = num - 1;
+          btn.classList.remove('active');
+          btn.firstChild.nodeValue = '♡ ';
+        }else{
+          num = num + 1;
+          btn.classList.add('active');
+          btn.firstChild.nodeValue = '♥ ';
+        }
+        em.setAttribute('data-num', String(num));
+        em.textContent = num;
+      });
+    });
+    document.querySelectorAll('[data-fav]').forEach(function(btn){
+      if(btn.dataset.bound) return;
+      btn.dataset.bound = '1';
+      btn.addEventListener('click', function(){
+        if(btn.classList.contains('active')){
+          btn.classList.remove('active');
+          btn.textContent = '☆ 收藏';
+          showToast('已取消收藏');
+        }else{
+          btn.classList.add('active');
+          btn.textContent = '★ 已收藏';
+          showToast('已加入收藏列表');
+        }
+      });
+    });
+    document.querySelectorAll('[data-share]').forEach(function(btn){
+      if(btn.dataset.bound) return;
+      btn.dataset.bound = '1';
+      btn.addEventListener('click', function(){
+        openModal('分享这部短片', '你可以通过微信、微博或复制链接的方式，把这部短片分享给朋友。内容传播时请保留原作者署名。', [
+          {label:'复制链接', primary:true, action:copyLink},
+          {label:'关闭', action:closeModal}
+        ]);
+      });
+    });
+  }
+  bindOps();
+
+  /* ---------- 复制链接 ---------- */
+  function copyLink(){
+    var text = '白桃少女官方网站 · 青春成长影像社区';
+    function fallback(){
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try{ document.execCommand('copy'); showToast('链接已复制'); }catch(e){ showToast('复制失败，请手动复制'); }
+      document.body.removeChild(ta);
+    }
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ showToast('链接已复制'); }).catch(fallback);
+    }else{
+      fallback();
+    }
+  }
+  document.querySelectorAll('[data-copy]').forEach(function(btn){
+    btn.addEventListener('click', copyLink);
+  });
+
+  /* ---------- 弹窗 ---------- */
+  var mask = document.getElementById('ptModalMask');
+  var modalTitle = document.getElementById('ptModalTitle');
+  var modalText = document.getElementById('ptModalText');
+  var modalActions = document.getElementById('ptModalActions');
+  var lastFocus = null;
+  function openModal(title, text, actions){
+    lastFocus = document.activeElement;
+    modalTitle.textContent = title;
+    modalText.textContent = text;
+    modalActions.innerHTML = '';
+    (actions || [{label:'知道了', primary:true, action:closeModal}]).forEach(function(a){
+      var b = document.createElement('button');
+      b.className = 'pt-btn ' + (a.primary ? 'pt-btn-primary' : 'pt-btn-ghost');
+      b.textContent = a.label;
+      b.addEventListener('click', a.action);
+      modalActions.appendChild(b);
+    });
+    mask.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    document.getElementById('ptModalClose').focus();
+  }
+  function closeModal(){
+    mask.classList.remove('open');
+    document.body.style.overflow = '';
+    if(lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  document.getElementById('ptModalClose').addEventListener('click', closeModal);
+  mask.addEventListener('click', function(e){ if(e.target === mask) closeModal(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && mask.classList.contains('open')) closeModal(); });
+
+  document.querySelectorAll('[data-modal]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var type = btn.getAttribute('data-modal');
+      if(type === 'submit'){
+        openModal('投稿入口', '请将你的原创短片、作品简介与联系方式发送至 create@peachgirl-studio.cn。我们会在三个工作日内回复，若作品进入评审阶段会另行通知。', [
+          {label:'复制邮箱', primary:true, action:function(){ copyText('create@peachgirl-studio.cn'); }},
+          {label:'关闭', action:closeModal}
+        ]);
+      }else{
+        openModal('商务合作', '品牌联合企划、内容定制与线下活动合作，请发送需求说明至 brand@peachgirl-studio.cn，并附上公司名称与预期排期，我们会在两个工作日内与你联系。', [
+          {label:'复制邮箱', primary:true, action:function(){ copyText('brand@peachgirl-studio.cn'); }},
+          {label:'关闭', action:closeModal}
+        ]);
+      }
+    });
+  });
+
+  function copyText(text){
+    function fallback(){
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try{ document.execCommand('copy'); showToast('已复制：' + text); }catch(e){ showToast('复制失败，请手动记录'); }
+      document.body.removeChild(ta);
+    }
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ showToast('已复制：' + text); }).catch(fallback);
+    }else{
+      fallback();
+    }
+  }
+
+  /* ---------- 创作者主页 ---------- */
+  document.querySelectorAll('[data-author]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var name = btn.getAttribute('data-author');
+      var introMap = {
+        '桃屿':'日常记录与治愈影像方向的签约创作者，擅长自然光与长镜头，代表作《晚自习之后》《四月的风穿过阳台》。',
+        '荔枝鱼':'城市探索与在地文化方向创作者，用方言解说与长镜头记录南方小城，代表作《老城区的一百级台阶》。',
+        '橙子酱':'手作与美食方向创作者，视频步骤清晰、节奏轻快，代表作《做一只布艺白桃》《她的小面馆》。',
+        '阿桃同学':'科技前沿与创作幕后方向创作者，工科背景，代表作《我用 AI 做了一部短片》《第一次剪辑》。',
+        '白桃编辑室':'白桃少女品牌官方运营账号，负责专题企划、人物访谈与企业动态发布。',
+        '夏屿未至':'新人创作者，擅长极短篇幅叙事，首部短片《十七岁的最后一个夏天》上线两周获得社区推荐。'
+      };
+      openModal(name + ' · 创作者主页', introMap[name] || '该创作者的完整作品序列正在整理中。', [
+        {label:'查看作品', primary:true, action:function(){ closeModal(); document.getElementById('ptStream').scrollIntoView({behavior:'smooth'}); }},
+        {label:'关闭', action:closeModal}
+      ]);
+    });
+  });
+
+  /* ---------- 回到顶部 ---------- */
+  var backTop = document.getElementById('ptBackTop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){ backTop.classList.add('show'); }
+    else{ backTop.classList.remove('show'); }
+  }, {passive:true});
+  backTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  /* ---------- 数字滚动 ---------- */
+  var counters = document.querySelectorAll('[data-count]');
+  var doneCount = false;
+  function runCounters(){
+    if(doneCount) return;
+    var hero = document.getElementById('ptHome');
+    if(!hero) return;
+    var rect = hero.getBoundingClientRect();
+    if(rect.top < window.innerHeight && rect.bottom > 0){
+      doneCount = true;
+      counters.forEach(function(el){
+        var target = parseInt(el.getAttribute('data-count'), 10);
+        var cur = 0;
+        var step = Math.max(1, Math.floor(target / 40));
+        var timer = setInterval(function(){
+          cur += step;
+          if(cur >= target){ cur = target; clearInterval(timer); }
+          el.textContent = cur;
+        }, 26);
+      });
+    }
+  }
+  window.addEventListener('scroll', runCounters, {passive:true});
+  window.addEventListener('load', runCounters);
+  runCounters();
+})();
+</script>
+</body>
+          </html>
